@@ -34,6 +34,6 @@ Supports products, suppliers, stock transactions, transfers, low stock alerts, s
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/inventory-api.git
+git clone https://github.com/aahn87piq/inventorysystem.git
 cd inventory-api
 ```
