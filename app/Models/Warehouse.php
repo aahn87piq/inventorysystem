@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Warehouse extends Model
+{
+    protected $fillable = ['name', 'location', 'country_id'];
+
+    public function country()
+    {
+        return $this->belongsTo(Country::class);
+    }
+
+    public function inventories()
+    {
+        return $this->hasMany(Inventory::class);
+    }
+}
